@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShipShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cart-shopping-solid.svg">
+</head>
+<body>
+
+    
+    <div class="container">
+         <div class="nav-bar border">
+              <div class="nav-logo border">
+                    <h1>ShipShop</h1>
+              </div>
+              <div class="nav-elements ">
+                <a id="home" onclick="homes()">Home</a>
+                <a id="shop" onclick="shops()">Shops</a>
+                <a id="blog" onclick="blogs()">Blog</a>
+                <a id="about" onclick="Abouts()">About</a>
+                <a id="contact" onclick="contacts()">Contact</a>
+                <a><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+                
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <div class="center">
+        <div class="hero">
+            <p class="text1">Trends...</p>
+            <h1 class="text2">Super Value Deals</h1>
+            <h2 class="text3">On All Products</h2>
+            <p>Welcome to our Website</p>
+            <button class="button">Explore</button>
+        </div>
+        <div class="hero-image"></div>
+    </div>
+
+    <!-- shop Men-->
+    <div class="cloth-wear">
+        <div class="men-heading">
+            <h1>Trends <span>Men's Wear</span> </h1>
+            
+        </div>
+        <div class="boxes">
+            <div class="box-1">
+                <div class="box-image1" style="background-image: url('shirt.png');" onclick="show(this)"></div>
+                <h4>Cotton Trending Shirts</h4>
+                <div class="box-text">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></br>
+                <button onclick="show(this)">Add To Cart</button>
+                </div>
+                
+            </div>
+            <div class="box-2">
+                <div class="box-image2" style="background-image: url('shirt2.png');" onclick="show(this)"></div>
+                <h4>Cotton Trending Shirts</h4>
+                <div class="box-text">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></br>
+                    <button onclick="show(this)">Add To Cart</button>
+                    </div>
+            </div>
+            <div class="box-3">
+                <div class="box-image3" style="background-image: url('shirt3.png');" onclick="show(this)"></div>
+                <h4>Cotton Trending Shirts</h4>
+                <div class="box-text">
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></br>
+                    <button onclick="show(this)">Add To Cart</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Shop Women -->
+    <div class="cloth-wear" id="trendsec">
+        <div class="women-heading">
+            <h1>Trends <span>Women Wear</span> </h1>
+            
+        </div>
+        <div class="boxes2">
+            <div class="box-4">
+                <div class="box-image4"  style="background-image: url('dress1.png');" onclick="show(this)"></div>
+                <h4>Trending Women Dresses</h4>
+                <div class="box-text">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></br>
+                <button onclick="show(this)">Add To Cart</button>
+                </div>
+                
+            </div>
+            <div class="box-5">
+                <div class="box-image5" style="background-image: url('dress2.png');" onclick="show(this)"></div>
+                <h4>Trending Women Dresses</h4>
+                <div class="box-text" >
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></br>
+                    <button onclick="show(this)">Add To Cart</button>
+                    </div>
+            </div>
+            <div class="box-6">
+                <div class="box-image6" style="background-image: url('dress3.png');" onclick="show(this)"></div>
+                <h4>Trending Women Dresses</h4>
+                <div class="box-text" >
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></br>
+                    <button onclick="show(this)">Add To Cart</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- About -->
+    <div class="foot1">
+        <div class="about-us">
+            <div class="know-us">
+                <h2>#Know Us...</h2>
+                <p>Know about our products and services</p>
+            </div>
+        </div>
+        
+    
+        <div class="about-data">
+            <div class="about-image"></div>
+            <div class="know-content">
+                <h1>Who we are ?</h1><br>
+            <p>Explore about our products and services</p>
+            </div>
+            
+        </div>
+    
+    </div>
+
+    <!-- contact -->
+    
+    <div class="foot2">
+        <div class="contact-us">
+            <div class="connect-us">
+                <h2>#Let's Connect</h2>
+                <p>Let's Connect.Know about our products and services</p>
+            </div>
+        </div>
+        
+    
+        <div class="contact-data">
+            <div class="contact-content">
+                <h1>Visit Our Office or Contact Us Today</h1><br><br>
+                <p>Address: Sector 62 ,Noida</p><br>
+                <p>Contact: xyz@gmail.com</p><br>
+                <p>Number: 999XXXXXX0</p>
+        </div>
+            <div class="map-image"></div>
+            
+            
+        </div>
+
+        <div class="form">
+            <form>
+                <div class="form-data">
+                    <h1>Connect With Us. Fill Form</h1>
+                <input type="text" placeholder="Enter Your FirstName"><br><br>
+                <input type="text" placeholder="Enter Your LastName"><br><br>
+                <input type="text" placeholder="Enter Your Email"><br><br>
+                <input type="number" placeholder="Enter Your Number"><br><br>
+                <input type="text" placeholder="Enter Your Address"><br><br>
+                <button class="form-button">Submit</button>
+                </div>
+                
+                
+            </form>
+        </div>
+    
+    </div>
+
+        <!-- Cart -->
+
+        <div class="cart">
+            <img id="newImg" src="" alt="">
+            <div class="cart-image"></div>
+            <div class="cart-data">
+                <h1>Trends Offer : Trending Products</h1><br>
+                <h2>Special Price</h2><br>
+                <h2>$11</h2><br>
+                <p>loren loren loren loren </p><br>
+                <p>loren loren loren loren  </p><br>
+                <p>loren loren loren loren  </p><br>
+                <div class="btn">
+                    <button>Buy Now</button>
+                <button onclick="addcart()">Add To Cart</button><br><br>
+                </div>
+                <button class="back">Back</button>
+            </div>
+        </div>
+    <!-- blog -->
+
+    <div class="trend"> 
+        <div class="trend-head">
+            <h1>Trends Top  <span> Blog's</span> </h1>
+        </div>
+        <div class="trend-box">
+            <div class="box-7">
+                <div class="box-image7"></div>
+                <div class="box7-data">
+                    <h3>Trending Women Dresses</h3>
+                <a class="box7-button" href="https://influencermarketinghub.com/best-fashion-blogs/">Read More</a>
+                </div>
+                
+                
+            </div>
+            <div class="box-8">
+                <div class="box-image8"></div>
+                <div class="box8-data">
+                    <h3>Trending Mens Clothes</h3>
+                <a class="box8-button" href="https://www.apetogentleman.com/">Read More</a>
+                </div>
+                
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <footer class="footer">
+        <div class="page-foot">
+            <div class="foot-text">
+                <h2>Sign Up for NewsLetter</h2>
+                <p>For more information Sign Up</p>
+            </div>
+            <div class="foot-elements">
+                <input class="input" type="text" placeholder="Enter Email Address">
+            <button class="foot-button">Sign Up</button>
+            </div>
+            
+            
+        </div>
+
+        <div class="foot-page2">
+            <div class="list1">
+                <ul>
+                    <h3>Trends</h3><br>
+                    <li>Service</li><br>
+                    <li>Customer</li><br>
+                    <li>Satisfaction</li><br>
+                </ul>
+            </div>
+            <div class="list2">
+                <ul>
+                    <h5>About Us</h5><br>
+                    <li>Address</li><br>
+                    <li>Service</li><br>
+                    <li>Customer</li><br>
+                    <li>Satisfaction</li><br>
+                </ul>
+            </div>
+            <div class="list3">
+                <ul>
+                    <h5>Contact</h5><br>
+                    <li>999XXXXXX0</li><br>
+                    <li>Customer</li><br>
+                    <li>Comming up..</li><br>
+                    <li>New Arrival</li><br>
+                </ul>
+            </div>
+            <div class="list4">
+                <ul>
+                    <h5>Trending</h5><br>
+                    <li>Service</li><br>
+                    <li>Customer</li><br>
+                    <li>Shop</li><br>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="foot-panel">
+            <div class="pages">
+                <p>Condition of Use <span>Privacy Notice</span></p>
+                
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 19XX-20XX, ShipShop.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+    
+    
+<script src="app.js"></script>
+</body>
+</html>
